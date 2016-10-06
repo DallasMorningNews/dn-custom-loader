@@ -18,7 +18,9 @@ require('dnpolyloader');
 ### To use with interactives template
 
 Place in your build/images folder:_dmn_d.svg, _dmn_polygon.png
+
 Place in your build/js folder: +loader.js
+
 Place in your build/sass folder: +loader.scss
 
 Then call the `dnLoader` function on the `body` element. The `dnLoader` function accepts two arguments: `display` and `remove`.

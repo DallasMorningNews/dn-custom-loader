@@ -4,7 +4,7 @@ It's a custom loading animation that can be used to cover your page while it loa
 
 ## How to use it
 
-Include the javascript and style sheet, then call the `dnLoader` function on the `body` element. The `dnLoader` function accepts two arguments: `display` and `remove`.
+Include the the two images (_dmn_d.svg, _dmn_polygon.png), javascript, and style sheet, then call the `dnLoader` function on the `body` element. The `dnLoader` function accepts two arguments: `display` and `remove`.
 
 For example:
 

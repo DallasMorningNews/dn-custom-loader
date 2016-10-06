@@ -1,0 +1,19 @@
+{
+  "name": "dnpolyloader",
+  "version": "1.0.0",
+  "description": "Custom loading animation for Dallas News interactive pages",
+  "main": "js/+loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DallasMorningNews/dn-custom-loader.git"
+  },
+  "author": "john hancock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DallasMorningNews/dn-custom-loader/issues"
+  },
+  "homepage": "https://github.com/DallasMorningNews/dn-custom-loader#readme"
+}

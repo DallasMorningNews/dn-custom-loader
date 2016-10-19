@@ -23,6 +23,8 @@ Place in your build/js folder: +loader.js
 
 Place in your build/sass folder: +loader.scss
 
+Place after you body tag in your html the contents of loader.html.
+
 Then call the `dnLoader` function on the `body` element. The `dnLoader` function accepts two arguments: `display` and `remove`.
 
 ```javascript
@@ -33,5 +35,13 @@ $(".get-data-button").click(function() {
         $("body").dnLoader("remove");
         console.log(data);
     });
+});
+```
+
+Note, if you want to use the loader as the first thing your user sees while the page loads, alter the `.dn-loader-block` declaration in `loader.scss` by removing this rule: `display: none`. Then, in your custom javascript file, add the following:
+
+```javascript
+$(window).load(function() {
+	$("body").dnLoader("remove");
 });
 ```
